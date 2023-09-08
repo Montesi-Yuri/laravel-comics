@@ -1,7 +1,54 @@
+@use './variables.scss' as *;
 @import '~bootstrap/scss/bootstrap';
 
-.dis{
-    width: 300px;
-    height: 300px;
-    background-image: url('../img/disappointment.jpg');
+header{
+    width: 100%;
+    margin: 20px 0;
+
+    nav{
+        display: flex;
+        justify-content: space-between;
+
+        ul{
+            display: flex;
+            align-items: center;
+            text-transform: uppercase;
+            margin: 0;
+
+            li{
+                margin: 0 5px;
+                height: 100%;
+                display: flex;
+                align-items: center;
+                padding: 0 10px;
+            
+                &:hover{
+                    border-bottom: 5px solid $primary-blue;
+                    cursor: pointer;
+                }
+                &.active{
+                    border-bottom: 5px solid $primary-blue;
+                    cursor: pointer;
+                    a{
+                        color: $primary-blue;
+                    }
+                }
+
+                &:hover a{
+                    color: $primary-blue;
+                }
+
+                a{
+                    text-decoration: none;
+                    color: darkslategray;
+                    font-weight: 700;
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+    .header-logo{
+    margin: 10px;
+    scale: 80%;
+    }
 }
