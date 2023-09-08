@@ -5,16 +5,39 @@
                 <img src="{{ Vite::asset('resources/img/dc-logo.png') }}" alt="dc-logo">
             </div>
             <ul>
-                <li>CHARACTERS</li>
-                <li>COMICS</li>
-                <li>MOVIES</li>
-                <li>TV</li>
-                <li>GAMES</li>
-                <li>COLLECTIBLES</li>
-                <li>VIDEOS</li>
-                <li>FANS</li>
-                <li>NEWS</li>
-                <li>SHOP</li>
+                <li>
+                    <a href="/">HOME</a>
+                </li>
+                <li>
+                    <a href="/not-available">CHARACTERS</a>
+                </li>
+                <li>
+                    <a href="/comics">COMICS</a>
+                </li>
+                <li>
+                    <a href="/not-available">MOVIES</a>
+                </li>
+                <li>
+                    <a href="/not-available">TV</a>
+                </li>
+                <li>
+                    <a href="/not-available">GAMES</a>
+                </li>
+                <li>
+                    <a href="/not-available">COLLECTIBLES</a>
+                </li>
+                <li>
+                    <a href="/not-available">VIDEOS</a>
+                </li>
+                <li>
+                    <a href="/not-available">FANS</a>
+                </li>
+                <li>
+                    <a href="/not-available">NEWS</a>
+                </li>
+                <li>
+                    <a href="/not-available">SHOP</a>
+                </li>
             </ul>
         </nav>
       </div>

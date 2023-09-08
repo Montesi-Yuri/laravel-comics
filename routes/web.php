@@ -20,3 +20,19 @@ Route::get('/', function () {
     return view('home', compact('comics'));
 
 }) -> name('home');
+
+Route::get('/comics', function () {
+
+    $comics = config('comics');
+
+    return view('comics', compact('comics'));
+
+}) -> name('comics');
+
+Route::get('/not-available', function () {
+
+    $comics = config('comics');
+
+    return view('not-available', compact('comics'));
+
+}) -> name('not-available');

@@ -18,7 +18,7 @@
 
         @include('partials.main')
 
-        @include('partials.footer')
+        
 
     </body>
    
