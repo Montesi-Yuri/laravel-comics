@@ -16,11 +16,8 @@
 
         @include('partials.header')
 
-        
-
         @yield('main-content')
 
     </body>
    
-
 </html>
